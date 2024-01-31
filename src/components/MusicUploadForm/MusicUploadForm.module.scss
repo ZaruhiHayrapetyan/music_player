@@ -1,0 +1,43 @@
+.musicUploadForm {
+  width: 100%;
+  height: 39px;
+  border: 1px solid gray;
+  padding: 4px;
+  border-radius: 8px;
+  margin-top: 50px;
+  background-color: #eceaea;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+
+  .chooseInp[type=file] {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: gray;
+
+
+    &::file-selector-button {
+      width: 120px;
+      height: 35px;
+      border-radius: 6px;
+      border: 1px solid gray;
+      color: gray;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      background-color: #ffffff;
+      text-align: center;
+      align-items: center;
+
+      //@media (max-width: 900px) {
+      //  background-color: orange;
+      //}
+
+      &:hover {
+        background-color: #f4f9ff;
+      }
+    }
+  }
+}
+

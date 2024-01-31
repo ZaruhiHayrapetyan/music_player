@@ -1,0 +1,20 @@
+.trackNum {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #ffffff;
+  &:hover {
+    background-color: #f4f9ff;
+    border:none;
+  }
+}

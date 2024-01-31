@@ -1,0 +1,13 @@
+.row {
+  display: table-row;
+
+  .cell {
+    display: table-cell;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+  }
+  &:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+}

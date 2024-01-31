@@ -1,0 +1,40 @@
+@mixin style() {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.plaAllBtn {
+  @include style();
+  width: 120px;
+  height: 35px;
+  gap: 6px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  color: gray;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #ffffff;
+
+  .txt, .line {
+    @include style();
+  }
+  .txt {
+    width: 70%;
+
+  }
+  .line {
+    width: 30%;
+    height: 35px;
+    border-left: 1px solid gray;
+  }
+  &:hover {
+    background-color: #f4f9ff;
+    border: none;
+    .line {
+      border-left: 2px solid #ffffff;
+    }
+  }
+}

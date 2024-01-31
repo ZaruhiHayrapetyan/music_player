@@ -1,0 +1,14 @@
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+
+  div {
+    cursor: pointer;
+
+    :hover {
+      color: #08d70d;
+    }
+  }
+}

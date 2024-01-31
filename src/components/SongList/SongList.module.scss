@@ -1,0 +1,48 @@
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  color: gray;
+  align-items: center;
+
+  .row {
+    display: table-row;
+
+    .cell {
+      display: table-cell;
+      border-bottom: 1px solid #ddd;
+      padding: 8px;
+
+    }
+  }
+
+  .rowHeader {
+    background-color: #eceaea;
+
+    div {
+      border-right: 3px solid white;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
